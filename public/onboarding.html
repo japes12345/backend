@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Donna AI — Finish setup</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <section class="card narrow">
+        <p class="eyebrow">Almost done</p>
+        <h1>Where should Donna text you?</h1>
+        <form id="preferences-form">
+          <label>Mobile number
+            <input name="phone" type="tel" placeholder="+15551234567" required />
+          </label>
+          <label>Timezone
+            <input name="timezone" type="text" value="America/New_York" required />
+          </label>
+          <button class="button" type="submit">Start Donna</button>
+        </form>
+        <p id="status" role="status"></p>
+      </section>
+    </main>
+    <script src="/onboarding.js"></script>
+  </body>
+</html>
